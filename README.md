@@ -41,18 +41,22 @@ Welcome to my project portfolio! This repository contains a collection of all th
   - **Code Documentation**: Includes comments and documentation for code clarity.
 
 - **Files Overview**:
-  - **`debug.py`**: Provides functions for debugging and displaying debug information on the screen.
-  - **`enemy.py`**: Manages the behavior, attributes, and interactions of enemy characters.
-  - **`entity.py`**: Defines common attributes and methods for all game entities, including players and enemies.
-  - **`level.py`**: Handles the creation, management, and layout of game levels.
-  - **`magic.py`**: Manages magic spells, abilities, and their effects.
-  - **`main.py`**: Contains the main game loop and initialization code for starting the game.
-  - **`particles.py`**: Manages particle effects such as explosions and visual enhancements.
-  - **`player.py`**: Controls the player character's attributes, actions, and interactions.
-  - **`settings.py`**: Stores game settings and configuration constants.
-  - **`support.py`**: Provides utility functions and helpers for various game operations.
-  - **`tile.py`**: Manages tile-based elements and the design of the game map.
-  - **`ui.py`**: Handles the user interface elements, including menus and HUD components.
-  - **`upgrade.py`**: Manages game upgrades and enhancements for the player character.
-  - **`weapon.py`**: Defines different weapons, their attributes, and functionality.
+  - **`code/`**: Contains all the Python scripts for game functionality:
+    - **`debug.py`**: Debugging tools and functions.
+    - **`enemy.py`**: Enemy behavior and attributes.
+    - **`entity.py`**: Common attributes and methods for game entities.
+    - **`level.py`**: Game level management and layout.
+    - **`magic.py`**: Magic spells and abilities.
+    - **`main.py`**: Main game loop and initialization.
+    - **`particles.py`**: Particle effects management.
+    - **`player.py`**: Player character management.
+    - **`settings.py`**: Game settings and configuration.
+    - **`support.py`**: Utility functions and helpers.
+    - **`tile.py`**: Tile-based elements and map design.
+    - **`ui.py`**: User interface elements.
+    - **`upgrade.py`**: Game upgrades and enhancements.
+    - **`weapon.py`**: Weapons and their attributes.
+  - **`audio/`**: Contains sound effects and background music used in the game.
+  - **`graphics/`**: Includes visual assets such as sprites, textures, and animations.
+  - **`map/`**: Holds level design files and tilemaps used to construct game levels.
 
