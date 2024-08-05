@@ -8,6 +8,7 @@ Welcome to my project portfolio! This repository contains a collection of all th
 
 ### Project 1: Loki (Low-Key Game) 🎮
 - **Description**: Loki is a game inspired by the classic *Zelda* series, developed using the Pygame library in Python. In Loki, players embark on a quest filled with adventure and challenging enemies. The name "Loki" is inspired by my cat friend, who is a constant source of motivation. 🐱💪
+  
 - **Key Python Concepts**:
   - **Module Importation**: The project utilizes external libraries such as Pygame to handle graphics, input, and game logic.
   - **Library Initialization**: Initializes libraries to set up the necessary environment for game development.
@@ -19,18 +20,39 @@ Welcome to my project portfolio! This repository contains a collection of all th
   - **Drawing and Blitting**: Utilizes methods for drawing shapes and blitting images/text onto surfaces to create the game’s visual elements.
   - **Rectangular Area Management**: Handles rectangular areas for positioning, collision detection, and layout management.
   - **Code Documentation**: Includes comments and documentation to clarify the purpose and functionality of code segments.
+    
 - **Technologies**: Pygame, Python, PyCharm
+  
 - **Features**: 
   - Classic adventure gameplay inspired by *Zelda* 🗡️
   - Challenging enemies 🐉
   - Rich visual and sound effects to enhance the experience 🎨🔊
+    
+- **Key Python Concepts**:
+  - **Module Importation**: Utilizes external libraries such as Pygame for graphics, input, and game logic.
+  - **Library Initialization**: Initializes libraries to set up the game environment.
+  - **Object-Oriented Programming (OOP)**: Structures game entities and manages game state using OOP principles.
+  - **Function Definitions**: Encapsulates game functionalities in reusable functions.
+  - **Default Parameters**: Uses default values in functions to simplify code usage.
+  - **Rendering Graphics and Text**: Displays graphics and text on the screen using Pygame’s rendering capabilities.
+  - **Event Handling**: Manages user input and game events to control game interactions.
+  - **Drawing and Blitting**: Draws shapes and blits images/text onto surfaces.
+  - **Rectangular Area Management**: Handles positioning and collision detection with rectangular areas.
+  - **Code Documentation**: Includes comments and documentation for code clarity.
+
 - **Files Overview**:
-  - **`main.py`**: Entry point for the game, handling game initialization and main loop.
-  - **`player.py`**: Manages player character attributes and behaviors.
-  - **`enemy.py`**: Defines enemy types and their interactions with the player.
-  - **`settings.py`**: Contains configuration settings and constants used throughout the game.
-  - **`utils.py`**: Includes utility functions and helpers for various game operations.
-  - **`graphics.py`**: Handles graphical assets, including rendering and animations.
-  - **`sound.py`**: Manages sound effects and background music.
-  - **`levels.py`**: Defines game levels and their layouts.
-  - **`debug.py`**: Provides debugging tools and displays information for troubleshooting.
+  - **`debug.py`**: Provides functions for debugging and displaying debug information on the screen.
+  - **`enemy.py`**: Manages the behavior, attributes, and interactions of enemy characters.
+  - **`entity.py`**: Defines common attributes and methods for all game entities, including players and enemies.
+  - **`level.py`**: Handles the creation, management, and layout of game levels.
+  - **`magic.py`**: Manages magic spells, abilities, and their effects.
+  - **`main.py`**: Contains the main game loop and initialization code for starting the game.
+  - **`particles.py`**: Manages particle effects such as explosions and visual enhancements.
+  - **`player.py`**: Controls the player character's attributes, actions, and interactions.
+  - **`settings.py`**: Stores game settings and configuration constants.
+  - **`support.py`**: Provides utility functions and helpers for various game operations.
+  - **`tile.py`**: Manages tile-based elements and the design of the game map.
+  - **`ui.py`**: Handles the user interface elements, including menus and HUD components.
+  - **`upgrade.py`**: Manages game upgrades and enhancements for the player character.
+  - **`weapon.py`**: Defines different weapons, their attributes, and functionality.
+
