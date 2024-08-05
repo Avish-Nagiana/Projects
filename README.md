@@ -24,3 +24,13 @@ Welcome to my project portfolio! This repository contains a collection of all th
   - Classic adventure gameplay inspired by *Zelda* 🗡️
   - Challenging enemies 🐉
   - Rich visual and sound effects to enhance the experience 🎨🔊
+- **Files Overview**:
+  - **`main.py`**: Entry point for the game, handling game initialization and main loop.
+  - **`player.py`**: Manages player character attributes and behaviors.
+  - **`enemy.py`**: Defines enemy types and their interactions with the player.
+  - **`settings.py`**: Contains configuration settings and constants used throughout the game.
+  - **`utils.py`**: Includes utility functions and helpers for various game operations.
+  - **`graphics.py`**: Handles graphical assets, including rendering and animations.
+  - **`sound.py`**: Manages sound effects and background music.
+  - **`levels.py`**: Defines game levels and their layouts.
+  - **`debug.py`**: Provides debugging tools and displays information for troubleshooting.
