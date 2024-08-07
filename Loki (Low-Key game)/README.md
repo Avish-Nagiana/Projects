@@ -1,6 +1,4 @@
-# Projects Overview
-
-## Project: Loki (Low-Key Game) 🎮
+# Project: Loki (Low-Key Game) 🎮
 - **Description**: Loki is a game inspired by the classic *Zelda* series, developed using the Pygame library in Python. In Loki, players embark on a quest filled with adventure and challenging enemies. The name "Loki" is inspired by my cat friend, who is a constant source of motivation. 🐱💪
   
 - **Key Python Concepts**:
