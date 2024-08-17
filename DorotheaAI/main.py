@@ -882,7 +882,9 @@ def main():
     # Passing the root
     gui = VoiceAssistantGUI(root)
     # Creating threads
-    assistant_thread = threading.Thread(target=handle_command, args=(gui.command_queue, gui), daemon=True)
+    assistant_thread = threading.Thread(target=handle_command,
+                                        args=(gui.command_queue, gui),
+                                        daemon=True)
     assistant_thread.start()
     # Putting root on loop
     root.mainloop()
