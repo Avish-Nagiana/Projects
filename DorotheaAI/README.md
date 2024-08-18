@@ -18,4 +18,12 @@
   - **Music Selection by Dorothea**: Let Dorothea surprise you with a song of her choice.
   - **Sleep Mode**: Put Dorothea to sleep with a simple voice command.
 
+- **Technologies Used**: DorotheaAI is primarily built with Python, utilizing the following technologies:
+  - **Tkinter**: For creating the graphical user interface (GUI).
+  - **SpeechRecognition**: For handling voice commands.
+  - **Plyer**: For sending notifications.
+  - **Pygame**: For playing music.
+  - **OpenAI**: For AI-powered chatting and content creation.
+  - **Pillow (PIL)**: For image handling.
+
 
