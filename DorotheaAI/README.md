@@ -42,11 +42,11 @@
   - **Path Handling**: Uses os.path.join() for constructing file paths to access music files and other resources.
  
 - **Overview of the Code Files**:
-  - **`alarm.py`**: Manages the setting and triggering of alarms based on user commands. This file likely handles parsing different time formats and scheduling alarms.
-  - **`app.py`**: The core application file that integrates various components of DorotheaAI. It might include the main application logic and orchestration of different features.
+  - **`alarm.py`**: Manages the setting and triggering of alarms based on user commands. This file handles scheduling and ringing of alarms.
+  - **`app.py`**: Handles the code to open and close applications and websites on the basis of voice command given.
   - **`calculator.py`**: Provides functionality for performing arithmetic operations and calculations. This file handles the logic for the calculator feature within the voice assistant.
-  - **`config.py`**: Contains configuration settings and constants used throughout the project. This file typically includes paths, settings, and other configurable parameters.
-  - **`main.py`**: The entry point of the application. It likely initializes the application, sets up the main loop, and starts the voice assistant.
-  - **`search.py`**: Handles search functionalities, such as querying Google or Wikipedia. This file might include methods for searching and retrieving information based on user commands.
-  - **`time_pass_game.py`**: Implements the "Rock, Paper, Scissors" game or similar time-pass games. This file contains the logic and interaction for playing games with the assistant.
-  - **`translator.py`**: Manages language translation features, using external translation services or libraries to translate text into different languages.
+  - **`config.py`**: Contains the API key to establish a connection between the code and openai to utilize the AI embedded features.
+  - **`main.py`**: The core application file that integrates various components of DorotheaAI. It also initializes the application, sets up the main loop, and starts the voice assistant.
+  - **`search.py`**: Handles search functionalities, such as querying Google or Wikipedia or YouTube. This file includes methods for searching and retrieving information based on user commands.
+  - **`time_pass_game.py`**: Implements the "Rock, Paper, Scissors" game. This file contains the logic and interaction for playing the game with the assistant.
+  - **`translator.py`**: Manages language translation features, using external translation services / libraries to translate text into different languages.
