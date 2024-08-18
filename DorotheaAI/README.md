@@ -5,17 +5,17 @@
 - **Friend-Like Experience**: To make Dorothea feel more like a friend rather than just a machine, I've added many sarcastic and funny responses. After all, sometimes you just don't want to hear a typical machine script.
 
 - **Features**:
-  - AI-Powered Chatting: Chat with Dorothea or use AI to create anything with OpenAI integration.
-  - YouTube Control: Control YouTube videos with commands to resume, pause, mute, unmute, and adjust the volume.
-  - Rock, Paper, Scissors: Play a fun game of Rock, Paper, Scissors with Dorothea.
-  - App and Website Management: Open and close various apps and websites through voice commands.
-  - Music Playback: Play music from your computer’s music directory using voice commands and stop playback whenever you like.
-  - Task Management: Ask Dorothea to remember tasks for you and remind you later.
-  - Screenshots: Take screenshots effortlessly with a voice command.
-  - Search and Information Retrieval: Use Google, Wikipedia, and YouTube for searching, playing videos, and gathering information.
-  - Calculator: Perform calculations quickly and easily.
-  - Language Translation: Translate text into any language you need.
-  - Music Selection by Dorothea: Let Dorothea surprise you with a song of her choice.
-  - Sleep Mode: Put Dorothea to sleep with a simple voice command.
+  - **AI-Powered Chatting**: Chat with Dorothea or use AI to create anything with OpenAI integration.
+  - **YouTube Control**: Control YouTube videos with commands to resume, pause, mute, unmute, and adjust the volume.
+  - **Rock, Paper, Scissors**: Play a fun game of Rock, Paper, Scissors with Dorothea.
+  - **App and Website Management**: Open and close various apps and websites through voice commands.
+  - **Music Playback**: Play music from your computer’s music directory using voice commands and stop playback whenever you like.
+  - **Task Management**: Ask Dorothea to remember tasks for you and remind you later.
+  - **Screenshots**: Take screenshots effortlessly with a voice command.
+  - **Search and Information Retrieval**: Use Google, Wikipedia, and YouTube for searching, playing videos, and gathering information.
+  - **Calculator**: Perform calculations quickly and easily.
+  - **Language Translation**: Translate text into any language you need.
+  - **Music Selection by Dorothea**: Let Dorothea surprise you with a song of her choice.
+  - **Sleep Mode**: Put Dorothea to sleep with a simple voice command.
 
 
