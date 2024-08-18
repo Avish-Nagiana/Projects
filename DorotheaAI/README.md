@@ -1,5 +1,7 @@
 ## Project: DorotheaAI
 
-- **Description**: DorotheaAI is a Python-based voice assistant designed to make your life easier by handling various tasks on your computer through voice commands. From controlling YouTube videos to playing music, opening and closing apps, and even having a bit of fun with games like Rock, Paper, Scissors, Dorothea is here to assist you in a way that feels more like interacting with a friend than just another machine.
+- **Description**: DorotheaAI is a voice assistant project built using Python, with a GUI made on Tkinter. The idea for DorotheaAI came to me while I was listening to the song "Dorothea" by Taylor Swift. 🎵 As a habit, I often listen to music while studying or working, and I stumbled upon the basic idea of creating a voice assistant on the internet. I wanted to approach this project differently. The name "Dorothea," meaning "God's gift," inspired me to create a voice assistant that serves as the perfect gift for someone who spends a lot of time on their laptop. 🎁 What better gift than a tool that allows you to perform nearly all tasks with just a voice command?
 
-- **🌟 Inspiration**: The idea for DorotheaAI came to me during one of my usual work sessions, where I often listen to music to keep the momentum going. While exploring ideas for creating a voice assistant, I came across the song "Dorothea" by Taylor Swift. The name, meaning "God's gift," sparked the concept of a voice assistant that acts as the perfect gift for someone who works extensively on their laptop, enabling them to complete tasks with just a voice command.
+To make Dorothea feel more like a friend rather than just a machine, I've added many sarcastic and funny responses. After all, sometimes you just don't want to hear a typical machine script.
+
+
