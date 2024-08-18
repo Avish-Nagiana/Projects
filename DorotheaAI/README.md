@@ -40,3 +40,13 @@
   - **Event Handling**: Manages user commands and interactions, ensuring appropriate responses and actions based on voice input.
   - **Error Handling**: Implements basic error handling through graceful management of unexpected inputs and conditions.
   - **Path Handling**: Uses os.path.join() for constructing file paths to access music files and other resources.
+ 
+- **Overview of the Code Files**:
+  - **`alarm.py`**: Manages the setting and triggering of alarms based on user commands. This file likely handles parsing different time formats and scheduling alarms.
+  - **`app.py`**: The core application file that integrates various components of DorotheaAI. It might include the main application logic and orchestration of different features.
+  - **`calculator.py`**: Provides functionality for performing arithmetic operations and calculations. This file handles the logic for the calculator feature within the voice assistant.
+  - **`config.py`**: Contains configuration settings and constants used throughout the project. This file typically includes paths, settings, and other configurable parameters.
+  - **`main.py`**: The entry point of the application. It likely initializes the application, sets up the main loop, and starts the voice assistant.
+  - **`search.py`**: Handles search functionalities, such as querying Google or Wikipedia. This file might include methods for searching and retrieving information based on user commands.
+  - **`time_pass_game.py`**: Implements the "Rock, Paper, Scissors" game or similar time-pass games. This file contains the logic and interaction for playing games with the assistant.
+  - **`translator.py`**: Manages language translation features, using external translation services or libraries to translate text into different languages.
