@@ -1,2 +1,4 @@
-1 - get coffee
-2 - pay for the coffee
+1 - get up early and have breakfast
+2 - go and get the work done
+1 - No response
+2 - No response
