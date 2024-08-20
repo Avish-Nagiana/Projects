@@ -102,7 +102,7 @@ def password_protect(gui):
         # Taking the voice input
         entry = take_command()
 
-        # Normalize the entry text according to the set password
+        # Normalizing the entry text according to the set password
         normalized_entry = entry.replace("I'll", "I will")
 
         # Opening the file having the password in read mode
