@@ -11,7 +11,8 @@ from plyer import notification
 import pygame
 import openai
 from config import apikey
-from translator import translate_google
+#from translator import translate_google
+from translator_2 import translate_google
 from search import *
 from app import *
 from time_pass_game import game_play
