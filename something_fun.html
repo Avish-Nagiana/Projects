@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<!-- Basic page settings -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Be My Valentine 💖</title>
+	
+	<style>
+		/* Reset default spacing and apply font */
+		* {
+		  box-sizing: border-box;
+		  font-family: "Poppins", sans-serif;
+		}
+		
+		/* Center everything on screen */
+		html, body {
+			  width: 100%;
+			  height: 100%;
+			  margin: 0;
+		}
+
+		body {
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+			  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+			  overflow: hidden; /* Prevents overflow issues */
+		}
+		
+		/* Main card styling */
+		.card {
+			background: white;
+			padding: 40px 30px;
+			border-radius: 20px;
+			text-align: center;
+			width: 320px;
+			box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+		}
+		
+		/* Heading style */
+		h1 {
+		  margin-bottom: 10px;
+		  color: #ff4d6d;
+		}
+		
+		/* Gif styling */
+		.gif {
+		  width: 235px;
+		  margin: 15px auto;
+		  border-radius: 12px;
+		}
+		
+		/* Question text */
+		p {
+		font-size: 18px;
+		margin-bottom: 25px;
+		}
+
+		/* Button container */
+		.buttons {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 15px;
+		}
+
+		/* Common button styles */
+		button {
+		padding: 10px 22px;
+		font-size: 16px;
+		border: none;
+		border-radius: 25px;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		}
+		
+		/* Yes button style */
+		.yes-btn {
+		background: #ff4d6d;
+		color: white;
+		}
+
+		/* No button style */
+		.no-btn {
+		background: #ddd;
+		color: #444;
+		}
+
+		/* Hover effect for Yes button */
+		.yes-btn:hover {
+		background: #ff3355;
+		}
+
+		/* Hover effect for No button */
+		.no-btn:hover {
+		background: #ccc;
+		}
+
+		/* Hide success screen initially */
+		.success {
+		display: none;
+		}
+		
+		/* Heart animation */
+		.heart {
+		font-size: 60px;
+		animation: pulse 1s infinite;
+		}
+
+		/* Pulsing animation */
+		@keyframes pulse {
+		0% { transform: scale(1); }
+		50% { transform: scale(1.2); }
+		100% { transform: scale(1); }
+		}	
+	</style>
+
+</head>
+
+<body>
+	
+	<!-- Main Valentine Card -->
+	<div class="card" id="mainCard">
+		<h1>Be My Valentine 💝</h1>
+		
+		<img 
+			  id="reactionGif" 
+			  src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3OXhlZzU4ajJkcW9nYXFpMDVzMm5xaTQ3eWsydDV3YmNiMzdzeW5pOCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/wvYNSqBAMDVx8CEYkt/giphy.gif"
+			  alt="cute gif"
+			  class="gif"
+		/>
+
+		<!-- Question text that changes -->
+		<p id="question">Will you be my Valentine?</p>
+
+		<!-- Buttons section -->
+		<div class="buttons">
+			<button class="yes-btn" id="yesBtn">Yes 💖</button>
+			<button class="no-btn" id="noBtn">No 😢</button>
+		</div>
+	</div>
+
+	<!-- Success Screen (shown after Yes click) -->
+	<div class="card success" id="successCard">
+		<div class="heart">❤️</div>
+		<h1>Yayyyy!!!</h1>
+		<p>You made me the happiest person ever 😍</p>
+		<img 
+		  src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3YnN1YzAxNzNvNXpnMWN5YXplZTByeWlzeXBzYmp6MjV6eTZrNmEwaSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/xTcnTjYKRBUTqum0KI/giphy.gif"
+		  class="gif"
+		/>
+	</div>
+	
+	<script>
+		/* Get references to HTML elements */
+		const noBtn = document.getElementById("noBtn");
+		const yesBtn = document.getElementById("yesBtn");
+		const question = document.getElementById("question");
+		const mainCard = document.getElementById("mainCard");
+		const successCard = document.getElementById("successCard");
+
+		/* Track which message to show next */
+		let messageIndex = 0;
+
+		/* Messages shown when user clicks No */
+		const messages = [
+		"Are you sure? 😢",
+		"Think again 💔",
+		"Pleaseeee 🥺",
+		"Don’t break my heart 😭",
+		"Last chance 😳",
+		"Ok you win… click Yes ❤️"
+		];
+
+		/* When NO button is clicked */
+	    noBtn.addEventListener("click", () => {
+		
+			// Change the question text
+			question.textContent = messages[messageIndex];
+
+			// Move to next message (loop back to start)
+			messageIndex = (messageIndex + 1) % messages.length;
+
+			// Get current font size of Yes button
+			const currentSize = parseFloat(window.getComputedStyle(yesBtn).fontSize
+			);
+
+			// Make Yes button bigger
+			yesBtn.style.fontSize = currentSize * 1.4 + "px";
+
+			// Increase padding so button looks wider
+			yesBtn.style.padding = "12px " + (currentSize * 1.2) + "px";
+		});
+		
+		/* When YES button is clicked */
+		yesBtn.addEventListener("click", () => {
+
+		// Hide main card
+		mainCard.style.display = "none";
+
+		// Show success card
+		successCard.style.display = "block";
+		});
+		
+	</script>
+
+</body>
+</html>
